@@ -1,9 +1,11 @@
 <template>
-  <div class="flex flex-col pt-20 h-screen w-full md:w-[70%] md:text-xl">
+  <div class="flex flex-col-reverse overflow-auto pt-20 h-screen w-full md:w-[70%] md:text-xl" id="messages-container">
+    <div class="w-full pb-40">
     <template v-for="message in sortedMessages" :key="message.id">
       <MessageMe v-if="message.type === 'user'" :text="message.text" />
       <MessageYuri v-else :text="message.text" />
     </template>
+    </div>
   </div>
 </template>
 
