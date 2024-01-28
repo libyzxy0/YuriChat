@@ -6,7 +6,7 @@
       <IconsPaperPlane />
     </button>
     </div>
-    <p class="text-gray-400 text-center mx-5 mt-4 text-sm md:text-lg pb-5"><b class="text-green-400">YuriAI</b> is currently under development, so you might encounter some inaccuracies in responses. If there's an issues please go to <a class="text-green-300 hover:underline" href="https://yuri.deno.dev">https://yuri.deno.dev/help</a></p>
+    <p class="text-gray-400 text-center mx-5 mt-4 text-sm md:text-lg pb-3"><b class="text-green-400">YuriAI</b> is currently under development, so you might encounter some inaccuracies in responses. If there's an issues please go to <a class="text-green-300 hover:underline" href="https://yuri.deno.dev">https://yuri.deno.dev/help</a></p>
   </div>
 </template>
 <script>
